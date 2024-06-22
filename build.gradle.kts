@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-plugins {
-	id("ru.solrudev.ackpine.publishing")
-}
+//plugins {
+//	id("ru.solrudev.ackpine.publishing")
+//}
 
 tasks.register<Delete>("clean").configure {
 	delete(rootProject.layout.buildDirectory)

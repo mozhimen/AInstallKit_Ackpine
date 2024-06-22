@@ -49,6 +49,7 @@
 		android:text="@string/no_install_sessions"
 		android:textAlignment="center"
 		android:textAppearance="?textAppearanceTitleLarge"
-		android:visibility="gone" />
+		android:visibility="gone"
+		tools:visibility="visible"/>
 
 </FrameLayout>
