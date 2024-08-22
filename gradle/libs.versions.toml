@@ -2,6 +2,11 @@
 android-gradleplugin = "8.2.2"
 kotlin = "2.0.0"
 kotlin-ksp = "2.0.0-1.0.22"
+core-ktx = "1.10.1"
+junit = "4.13.2"
+junit-version = "1.1.5"
+espresso-core = "3.5.1"
+appcompat = "1.6.1"
 
 [libraries]
 materialcomponents = { module = "com.google.android.material:material", version = "1.12.0" }
@@ -15,6 +20,11 @@ apksig = { module = "com.android.tools.build:apksig", version.ref = "android-gra
 listenablefuture = { module = "com.google.guava:listenablefuture", version = "1.0" }
 guava = { module = "com.google.guava:guava", version = "33.2.0-android" }
 viewbindingpropertydelegate = { module = "com.github.kirich1409:viewbindingpropertydelegate-noreflection", version = "1.5.9" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit-version" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-gradleplugin" }
