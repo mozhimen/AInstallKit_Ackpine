@@ -11,13 +11,13 @@ android {
         minSdk 21
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
+//        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -30,10 +30,10 @@ android {
 }
 
 dependencies {
-    implementation project(':SwiftKit:basick')
+    implementation project(':ASwiftKit:basick')
+    implementation project(':ALibKit_Android:tools_build_apksig')
+    implementation project(':ALibKit_Apache:commons_compress')
     implementation project(project.path.replace(project.name,'')+':ackpine-runtime')
-    implementation 'org.apache.commons:commons-compress:1.26.2'
-    implementation 'com.android.tools.build:apksig:8.2.2'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
