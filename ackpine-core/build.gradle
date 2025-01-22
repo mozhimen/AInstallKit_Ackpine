@@ -41,7 +41,7 @@ dependencies {
     implementation project(':ALibKit_Jetpack:startup')
     implementation project(':ALibKit_Jetpack:room')
     implementation project(':ALibKit_Jetpack:concurrent_futures')
-    implementation project(':ALibKit_Google:guava_listenablefuture')
+    implementation project(':ALibKit_Google:guava:listenablefuture')
     implementation project(':ASwiftKit:basick')
     implementation project(project.path.replace(project.name,'')+':ackpine-runtime')
     kapt 'androidx.room:room-compiler:2.6.1'
