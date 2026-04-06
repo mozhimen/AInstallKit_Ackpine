@@ -23,7 +23,7 @@ plugins {
 
 ackpine {
 	id = "assets"
-	artifact {
-		name = "Ackpine Assets"
-	}
+//	artifact {
+//		name = "Ackpine Assets"
+//	}
 }
