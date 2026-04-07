@@ -31,7 +31,7 @@ android {
 
 dependencies {
     implementation project(':ASwiftKit:basick')
-    implementation project(':ALibKit_Android:tools_build_apksig')
+    implementation 'com.github.mozhimen:ALibKit_Android:0.0.1'
     implementation project(':ALibKit_Apache:commons_compress')
     implementation project(project.path.replace(project.name,'')+':ackpine-runtime')
 
