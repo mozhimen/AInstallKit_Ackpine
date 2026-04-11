@@ -44,7 +44,7 @@ dependencies {
     implementation 'com.github.mozhimen.ALibKit_Jetpack:room:0.0.5'
     implementation 'com.github.mozhimen.ALibKit_Jetpack:concurrent_futures:0.0.5'
     implementation 'com.github.mozhimen.ALibKit_Google:guava-listenablefuture:0.0.5'
-    implementation project(':ASwiftKit:basick')
+    implementation 'com.github.mozhimen.ASwiftKit:basick:2.0.4'
     kapt 'androidx.room:room-compiler:2.6.1'
 
     testImplementation 'junit:junit:4.13.2'
